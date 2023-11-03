@@ -1,0 +1,22 @@
+name: Deploy to FTP
+
+on:
+  push:
+    branches:
+      - main # Oder welcher auch immer der Name Ihres Hauptzweigs ist
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Deploy to FTP
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: /html/wp-content/themes/
