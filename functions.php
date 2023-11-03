@@ -39,10 +39,3 @@ function add_file_types_to_uploads($file_types){
 /*wp_deregister_script('jquery');
 wp_enqueue_script('jquery', '/js/js/jquery.min.js', array(), null, true);*/
 
-function add_file_types_to_uploads($file_types){
-    $new_filetypes = array();
-    $new_filetypes['svg'] = 'image/svg+xml';
-    $file_types = array_merge($file_types, $new_filetypes );
-    return $file_types;
-}
-add_filter('upload_mimes', 'add_file_types_to_uploads');
