@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main # Oder welcher auch immer der Name Ihres Hauptzweigs ist
+  workflow_dispatch: # Manueller Trigger
 
 jobs:
   deploy:
