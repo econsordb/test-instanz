@@ -1,0 +1,22 @@
+/*
+ Theme Name:   GeneratePress Child
+ Theme URI:    https://generatepress.com
+ Description:  Default GeneratePress child theme
+ Author:       Econsor
+ Author URI:   https://tomusborne.com
+ Template:     generatepress
+ Version:      0.1
+*/
+
+
+// Settings
+@import "general/variables";
+@import "general/wp";
+@import "general/typo";
+@import "general/normalize";
+
+// Libraries
+//@import "libraries/...";
+
+// Elements
+@import "elements";

@@ -1,0 +1,127 @@
+/*--------------------------------------------------------------
+# Font import
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+  line-height: 1.35;
+  color: $dark-color;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "-apple-system", "BlinkMacSystemFont", "Roboto", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+.h2,
+.h1,
+.h3 {
+  clear: both;
+  font-weight: 700;
+  margin: 0 0 30px 0;
+  line-height: 1.35;
+  color: $dark-color;
+}
+
+h1,
+.h1 {
+  font-size: 50px;
+  color: $accent-color;
+
+  @media (max-width: 767px) {
+    font-size: 40px;
+  }
+
+  @media (max-width: 550px) {
+    font-size: 30px;
+  }
+
+  @media (max-width: 350px) {
+    font-size: 24px;
+  }
+}
+
+h1+h2,
+.h1+.h2,
+h2+h3,
+.h2+.h3 {
+  margin-top: -20px;
+}
+
+h2,
+.h2 {
+  font-size: 35px;
+
+  @media (max-width: 768px) {
+    font-size: 30px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 25px;
+  }
+
+  @media (max-width: 400px) {
+    font-size: 20px;
+  }
+}
+
+h3,
+.h3 {
+  font-size: 27px;
+  color: $accent-color;
+
+  @media (max-width: 768px) {
+    font-size: 22px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 20px;
+  }
+
+  @media (max-width: 400px) {
+    font-size: 18px;
+  }
+}
+
+h4 {
+  font-size: 30px;
+  font-weight: 400;
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
+
+  @media (max-width: 400px) {
+    font-size: 17px;
+  }
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+p {
+  margin: 0 0 10px;
+  line-height: 1.5;
+}
+
+dfn,
+cite,
+em,
+i {
+  font-style: italic;
+}

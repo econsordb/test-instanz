@@ -1,0 +1,10 @@
+.hero {
+  color: $accent-color;
+  @media screen and (max-width: 400px) {
+      font-size: 15rem;
+  }
+}
+
+.content-area {
+    background-color: red;
+}

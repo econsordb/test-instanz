@@ -1,0 +1,4 @@
+{
+  "main.css": "./build/style.min.css",
+  "main.js": "./build/main.min.js"
+}

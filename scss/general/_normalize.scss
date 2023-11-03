@@ -1,0 +1,48 @@
+
+/*--------------------------------------------------------------
+# Space Klassen
+--------------------------------------------------------------*/
+.pad {
+  padding: $space 0;
+}
+
+.padtop {
+  padding: $space 0 0;
+}
+
+.paddown {
+  padding: 0 0 $space 0;
+}
+
+.space {
+  margin: $space 0;
+
+  &.top {
+    margin: $space 0 0;
+  }
+
+  &.down {
+    margin: 0 0 $space 0;
+  }
+}
+
+/*--------------------------------------------------------------
+# Page Einstellungen
+--------------------------------------------------------------*/
+#page {
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+
+/*--------------------------------------------------------------
+# Inhalt Container
+--------------------------------------------------------------*/
+.container {
+  position: relative;
+  max-width: 1500px;
+  width: 100%;
+  padding: 0 25px;
+  margin: 0 auto;
+  display: block;
+}
